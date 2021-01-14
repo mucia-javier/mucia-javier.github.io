@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Javier's Page</title>
+	<meta name="description" content="Javier Mucia's personal site.">
+	<meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet"  href="stylesheets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+  </head>
+  <body>
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4074ccc-1fbc-453c-aeb7-f985787f5d59/de69j6b-9198d5da-87d6-4a51-9932-5b361e0381a9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQwNzRjY2MtMWZiYy00NTNjLWFlYjctZjk4NTc4N2Y1ZDU5XC9kZTY5ajZiLTkxOThkNWRhLTg3ZDYtNGE1MS05OTMyLTViMzYxZTAzODFhOS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.anNShzZPckppy4_lcxfWef4ICDpku6m9zUNyro6AY0w" id="amus" alt="among us character running">
+    <div id="background_cont" class="back_wcloud">
+      <div id="courtain">
+      </div>
+      <div id="container" class="text-white foreground black_fading">
+          <ul class="nav nav-fill" id="content_header" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="black_link nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="black_link nav-link" id="myworks-tab" data-bs-toggle="tab" href="#myworks" role="tab" aria-controls="myworks" aria-selected="false">His Work</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="black_link nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="content_body">
+            <div id="home" class="tab-pane fade show active indented" role="tabpanel" aria-labelledby="home-tab" lang="en">
+            </div>
+            <div id="myworks" class="tab-pane fade indented " role="tabpanel" aria-labelledby="myworks-tab">
+              <div id="sectionA">
+                <p>
+                  Javier develops software for the Web and Android OS, although currently his main focus is learning about AI applications in Natural Language Processing.
+                </p>
+                <p>
+                  The programming languages that he is most proficient at are <strong>Python, C++, Java, JavaScript, CSS and HTML</strong>.
+                </p>
+                <p>
+                  Some of his earliest projects include the following:
+                </p>
+              </div>
+              <div class="accordion accordion-flush bg-light text-dark" id="myWorksAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingZero">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseZero" aria-expanded="false" aria-controls="flush-collapseZero">
+                      <t1>Citizenship PWA &nbsp &nbsp</t1>
+                      <img src="images/civics/civics.png" alt="Android" style="width:45px;height:45px;">
+                    </button>
+                  </h2>
+                  <div id="flush-collapseZero" class="accordion-collapse collapse" aria-labelledby="flush-headingZero" data-bs-parent="#myWorksAccordion">
+                    <div class="accordion-body">
+                      <p>
+                        A Progressive Webb App (PWA) that helps people practice the civics part of the citizenship test. It was created using <strong>Flask, Postgres DB and Service Workers</strong>(to cache content and make loading faster).
+                        <br>Check the
+                        <a href="https://civics2008.herokuapp.com"> 2008 version </a> or the
+                        <a href="https://civics2020.herokuapp.com"> 2020 version </a> of the WebApp.
+                      </p>
+                      <div id="carouselCitizen" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselCitizen" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselCitizen" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselCitizen" data-bs-slide-to="2"></li>
+                          <li data-bs-target="#carouselCitizen" data-bs-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/civics/cv1.png" class="d-block w-100" alt="s1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/civics/cv2.png" class="d-block w-100" alt="s2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/civics/cv3.png" class="d-block w-100" alt="s3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/civics/cv4.png" class="d-block w-100" alt="s4">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselCitizen" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselCitizen" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <t1>OpenMRS module &nbsp &nbsp </t1>
+                        <img src="images/OpenMRS_logo.png" alt="OpenMRS" style="width:100px;height:25px;">
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#myWorksAccordion">
+                    <div class="accordion-body">
+                      <p>
+                        A <strong>Module</strong> for the open source medical record system <strong>OpenMRS</strong>. This module allows medical offices
+                        to keep digital copies of periodical surveys that help them monitor the recovery progress of their patients. It was created with the Spring Framework as a
+                        mixture of Java Server Pages (.jsp) and Groovy Server Pages (.gsp) using Java, Groovy, HTML, JavaScript, CSS, MySQL and Liquidbase.
+                      </p>
+                      <div id="carouselOMRS" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/openMRS/1.png" class="d-block w-100" alt="omrs1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/openMRS/2.png" class="d-block w-100" alt="omrs2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/openMRS/3.png" class="d-block w-100" alt="omrs3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/openMRS/4.png" class="d-block w-100" alt="omrs4">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/openMRS/5.png" class="d-block w-100" alt="omrs5">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/openMRS/6.png" class="d-block w-100" alt="omrs6">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselOMRS" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselOMRS" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <t1>Database Manager &nbsp &nbsp</t1>
+                      <img src="images/database.png" alt="DataBase" style="width:70px;height:27px;">
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#myWorksAccordion">
+                    <div class="accordion-body">
+                      <p>
+                      A Java standalone application with a graphical user interface to access and manage remote SQL databases.
+                      It was created to acquire familiarity with SQL and the java packages SWING and AWT.
+                      <a href="http://bit.ly/2gcoHK0">Direct download here.</a>
+                      </p>
+                      <div id="carouselDB" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/database/db1.png" class="d-block w-100" alt="d1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/database/db2.png" class="d-block w-100" alt="d2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/database/db3.png" class="d-block w-100" alt="d3">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselDB" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselDB" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <t1>Sudoku Android App &nbsp &nbsp</t1>
+                      <img src="images/android.png" alt="Android" style="width:45px;height:45px;">
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#myWorksAccordion">
+                    <div class="accordion-body">
+                      <p>
+                        An Android application to play Sudoku in three different levels or solve any valid
+                        Sudoku puzzle on a 9x9 grid. It was developed as practice of backtracking algorithms and to learn about XML, java
+                        serializable classes and Android development. It supports Android 1.0 through 6.0.
+                        <a href="http://bit.ly/2ft9XFv">Direct download here.</a>
+                      </p>
+                      <div id="carouselSudoku" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/sudoku/sd1.png" class="d-block w-100" alt="s1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/sudoku/sd2.png" class="d-block w-100" alt="s2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/sudoku/sd3.png" class="d-block w-100" alt="s3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/sudoku/sd4.png" class="d-block w-100" alt="s4">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselSudoku" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselSudoku" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <t1>PDF Estimator  &nbsp &nbsp</t1>
+                      <img src="images/distribution.png" alt="DataBase" style="width:60px;height:35px;">
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#myWorksAccordion">
+                    <div class="accordion-body">
+                      <p>
+                        Given a set of numerical data stored in a file (one numerical value per line), this program creates the PDF
+                        (Probability Density Function) of the Probability of finding a value between X and X+dx.
+                        It plots the results in a small panel to give the user a graphical representation of the distribution of values in the given set of data.
+                        <a href="http://bit.ly/2fB8tXB">Direct download here.</a>
+                      </p>
+                      <div id="carouselHist" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/histo/h1.png" class="d-block w-100" alt="h1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/histo/h2.png" class="d-block w-100" alt="h2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/histo/h3.png" class="d-block w-100" alt="h3">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselHist" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselHist" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p><br>
+              To get the source of the above works and see other projects that Javier has done visit his Github <a class="green_link" href="https://github.com/mucia-javier" target="_parent" >here.</a>
+              </p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="flex-container">
+                  <div class="flex-child magenta">
+                    <img id="me_pic" src="images/me.png" alt="A picture of me." >
+                  </div>
+                  <div id="me_description" class="flex-child green">
+                    <p><myname>Javier Mucia</myname>
+                      <br>
+                      <small>
+                        <mayor>Computer Science <br></mayor>
+                        <school>Queens College, CUNY</school>
+                      </small>
+                    </p>
+                  </div>
+                </div>
+                <div id="social_icons" class="entry">
+                  <a title="Email him" class="social_icon" href="mailto: mucia.javier@gmail.com">
+                    <img src="images/email.png" alt="Email" class="small_icons">
+                  </a>
+                  <a title="Check his github" class="social_icon" href="https://github.com/mucia-javier" target="_blank" >
+                    <img src="images/git_small.png" alt="Github" class="small_icons" >
+                  </a>
+                  <a title="Connect with him on LinkedIn" class="social_icon" href="https://www.linkedin.com/in/javier-mucia" target="_blank">
+                    <img src="images/small_li.png" alt="" class="small_icons">
+                  </a><br><br>
+                  <div id="social_icon_title">
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    <iframe style="display:none;" src="https://civics2008.herokuapp.com/visit" title="iframe">
+    </iframe>
+  </body>
+</html>
