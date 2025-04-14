@@ -1,7 +1,7 @@
 var initialHeight;
-var typingSpeed =65;
+var typingSpeed =35; /*65*/
 var aup = false;
-var typeHomeDelay = 2300;
+var typeHomeDelay = 1500; /*2300*/
 var sentences = [
 		"Welcome to Javier's page.",
 		"One of the pastime activities that he enjoys the most is solving puzzles. More specifically, use computers to solve puzzles.",
@@ -80,7 +80,7 @@ function typeHomeContent(chi,si,paragraph){
 	if (chi<sentences[si].length) {
 		paragraph.innerHTML += sentences[si].charAt(chi);
 		if(sentences[si].charAt(chi)=="." || sentences[si].charAt(chi+1)=="(" || sentences[si].charAt(chi)==")"){
-			speed=typingSpeed*20;
+			speed=typingSpeed*14;
 			paragraph.classList.add("with_caret");
 		}
 		else if(sentences[si].charAt(chi)==","){
@@ -103,6 +103,10 @@ function typeHomeContent(chi,si,paragraph){
 			p.innerHTML += " ";
 			let ranSpeed = typingSpeed*(Math.floor(Math.random() * (17 - 8 + 1) + 8));
 			setTimeout(function(){ typeHomeContent(0, si+1, p); }, ranSpeed);
+		}
+		else{
+			setTimeout(function(){ paragraph.classList.remove("with_caret"); }, 2000);
+
 		}
 	}
 }
